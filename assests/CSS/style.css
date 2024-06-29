@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-square{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 4%;
+    top: 0;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+span{
+    color: rgb(15, 222, 15);
+}
+button:hover{
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color: rgb(15, 222, 15);
+}
+button{
+    border:none;
+    background-color: rgb(15, 222, 15);
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover{
+    color: white;
+}
+.tag{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(15, 222, 15);
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.main-content{
+    margin-top: 50px;
+    margin-left: 5%;
+    color: white;
+    position: absolute;
+    display: flex;
+    
+}
+.main-content .first{
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.main-content .second{
+    padding-bottom: 10px;
+    font-size: 60px;
+}
+.main-content p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.main-content button{
+    margin-top: 20px;
+}
+.main-content button:hover{
+    color:white;
+}
+.main-content img{
+    width: 500px;  
+    margin-left: 100px;
+    border-radius: 2%;
+}
+.individual-box1{
+    position: absolute;
+    color: black;
+    padding: 40px;
+    margin-top: 240px;
+    margin-left: 600px;
+    border: 5px solid white;
+    border-radius: 2%;
+    background-color: aliceblue;
+    width: 300;
+}
+.address{
+    display: flex;
+    color: black;
+    background-color: rgb(27, 27, 27);
+    padding: 30px;
+    
+    
+}
+.address .box1{
+    display: flex;
+    margin-top: 10px;
+}
+.address .box2{
+    margin-top: 10px;
+    padding-left: 400px;
+}
+.address .box1 p{
+    padding-left: 50px;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.address .box2 img{
+    flex-wrap: wrap;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+.address .box2 img:hover{
+    transform: scale(1.2);
+}
+
+.second-square{
+    background-color: black;
+}
+.second-square h2{
+    padding-top: 70px;
+    text-align: center;
+    color: rgb(15, 222, 15);
+}
+.second-square h1{
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+.second-square-main-box{
+    padding: 5% 5%;
+    /* padding-top: 5%; */
+    /* padding-right: 5%; */
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom: 5%; */
+}
+.second-square-main-box .box-one{
+    color: black;
+    background-color: gray;
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.second-square-main-box .box-one img{
+    width: 30px;
+    color:green;
+}
+
+.third-square-box{
+    display: flex;
+    background-color: black;
+}
+.third-square-box-one{
+    padding: 5% 5%;
+}
+.third-square-box-one img{
+    width: 600px;  
+    border-radius: 2%;
+}
+
+.third-square-box-one p{
+    color: white;
+    margin-bottom: 100px;
+}
+.individual-box2{
+    position: absolute;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 280px;
+    margin-left: 150px;
+    height: 12em;
+    border: 5px solid white;
+    border-radius: 2%;
+    background-color: aliceblue;
+    line-height: 1.5rem;
+}
+.individual-box2 p{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.individual-box2 ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+.individual-box2 ul li img{
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.third-square-box-two{
+    color: white;
+    padding-top: 5%;
+}
+.third-square-box-two h3{
+    color: rgb(15, 222, 15);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.third-square-box-two h1{
+    padding-bottom: 20px;
+}
+.third-square-box-two ul{
+    list-style-type:none;
+    line-height: 2rem;
+    display: flex;
+}
+.third-square-box-two li{
+    padding-left: 20px;
+}
+.third-square-box-two img{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.third-square-box-two button{
+    margin-top: 5%;
+    padding: 20px 180px;
+}
+.fourth-square-box{
+    background-color: rgb(40, 37, 37);
+    padding-bottom: 50px;
+}
+.fourth-square-box h2{
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.fourth-square-box h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.fourth-square-box-container{
+    display: grid;
+    grid-template-columns: repeat(6,minmax(20px,1fr));
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: rgb(40, 37, 37);
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.fourth-square-box-container .inside-box{
+    padding: 20px 20px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.fourth-square-box-container .inside-box .outer-flex-items{
+    display: flex;
+}
+.fourth-square-box-container .inside-box .inner-flex-items{
+    display: block;
+}
+.fourth-square-box-container .inside-box .logo-icon{
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-square-box-container .inside-box .para-one{
+    padding-left: 5px;
+}
+.fourth-square-box-container .inside-box .para-two{
+    padding-left: 5px;
+}
+.fifth-square-box{
+    background-color: black;
+    padding-bottom: 100px;
+}
+.fifth-square-box .heading{
+    color: white;
+    padding-left: 5%;
+    padding-top: 10%;
+    position: relative;
+}
+.fifth-square-box .heading h3{
+    padding-bottom: 40px;
+}
+.fifth-square-box .heading h1{
+    padding-bottom: 10px;
+
+}
+.fifth-square-box .heading button{
+    top: 78%;
+    left: 79%;
+    position: absolute;
+    z-index: 2;
+    width: 200px;
+
+}
+.fifth-square-box .course-details{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(50px,1fr));
+    column-gap: 30px;
+    row-gap: 30px;
+    border-radius: 5px;
+    
+}
+.fifth-square-box .course-details .course-details-box{
+    border-radius: 5px;
+    background-color: black;
+}
+
+.fifth-square-box .course-details .course-details-box .course-heading{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+}
+.fifth-square-box .course-details .course-details-box .course-heading .image-icon{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 5%;
+}
+.fifth-square-box .course-details .course-details-box .course-heading h2{
+    margin-left: 50px;
+}
+.fifth-square-box .course-details .course-details-box .course-heading .language-icon{
+    width: 20px;
+    position: absolute;
+    top: 170px;
+    left: 280px;
+}
+.fifth-square-box .course-details .course-details-box .course-price{
+    background-color: gray;
+    border-radius: 5px;
+    height: 150px;
+    
+}
+.fifth-square-box .course-details .course-details-box .course-price  pre{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+.fifth-square-box .course-details .course-details-box .course-price  h3{
+    margin-left: 50px;
+    
+}
+.fifth-square-box .course-details .course-details-box .course-price p{
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.fifth-square-box .small-box{
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-right: 5%;
+    padding: 50px 20px;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.5)),url('coding.jpeg');
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid rgb(15, 222, 15);
+    display: flex;
+    width: 1130px;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between;
+    color: white;
+}
+.fifth-square-box .small-box h1{
+    margin-left: 50px;
+}
+.fifth-square-box .small-box button{
+    margin-right: 30px;
+}
+.sixth-square-box{
+    background-color: rgb(40, 37, 37);
+    padding-bottom: 5%;
+}
+.sixth-square-box .heading{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white;
+   
+}
+.sixth-square-box .heading h1{
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+.sixth-square-box .form{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.sixth-square-box .form .left-box{
+    margin-left: 5%;
+    margin-top: 20px;
+    
+}
+.sixth-square-box .form .left-box .left-box-para{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+.sixth-square-box .form .left-box .left-box-para img{
+    width: 15px;
+    margin-right: 20px;
+}
+ 
+.sixth-square-box .form .right-box{
+    margin-right: 5%;
+}
+.sixth-square-box .form .right-box h1{
+    padding-bottom: 5%;
+}
+.sixth-square-box .form .right-box input{
+    padding: 15px 40px;
+    text-align: left;
+    border-radius: 5px;
+    border: none;
+}
+.sixth-square-box .footer{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:  rgb(15, 222, 15);
+    padding: 40px 40px;
+    border-radius: 5px;
+}
+
+.sixth-square-box .footer span{
+    color: white;
+    font-weight: bolder;
+}
+.sixth-square-box .footer .footer-icons{
+    display: flex;
+    margin-right: 20px;
+}
+.sixth-square-box .footer .footer-icons img{
+    width: 30px;
+    padding-left: 10px;
+    transition: transform 0.3s ease;
+}
+.sixth-square-box .footer .footer-icons img:hover {
+    transform: scale(1.5);
+}
